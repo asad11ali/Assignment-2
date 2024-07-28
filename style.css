@@ -316,99 +316,90 @@
   .language-line {
     padding-top: 80px;
   }
-.paragraph{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 327px;
-  height: 216px;
-  font-size: 32px;
-  padding-top: 50px;
-  text-align: center;
-}
-.form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 327px;
-  height: 216px;
-  font-size: 32px;
-  padding-top: 80px;
-  text-align: center;
-}
-input{
-  width: 100%;
-  padding: 12px;
-  font-size: 15px;
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom: 1px solid #bbb;
-  background-color: transparent;
-}
-textarea{
-  width: 100%;
-  height: 114px;
-  background: rgba(251, 248, 247, 1);
-  padding: 15px;
-  margin-top: 20px;
-  font-size: 15px;
-}
-hr{
-  margin-top: 100px;
-  width: 375px;
-  height: 1px;
-}
 
-.social-links-2 {
-  margin-left: 24px;
-  margin-right: 24px;
-  width: 327px;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-}
+  .paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 327px;
+    height: 216px;
+    font-size: 32px;
+    padding-top: 50px;
+    text-align: center;
+  }
 
-.social-links-2 .social-2 {
-  width: 40px;
-  height: 40px;
-  font-size: 24px;  
-  color: rgba(80, 95, 121, 1);
-  padding-top: 30px;
-}
-.end-div{
-  display: flex;
-  width: 327px;
-  height: auto;
-  margin-left: 24px;
-  margin-right: 24px;
-  justify-content: center;
-}
-.end{
-  width: 127px;
-  height: 5px;
-  background-color:rgba(13, 21, 30, 1);
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 327px;
+    height: 216px;
+    font-size: 32px;
+    padding-top: 80px;
+    text-align: center;
+  }
 
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: 1px solid #bbb;
+    background-color: transparent;
+  }
 
+  textarea {
+    width: 100%;
+    height: 114px;
+    background: rgba(251, 248, 247, 1);
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
 
+  hr {
+    margin-top: 100px;
+    width: 375px;
+    height: 1px;
+  }
 
+  .social-links-2 {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 327px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  }
 
+  .social-links-2 .social-2 {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: rgba(80, 95, 121, 1);
+    padding-top: 30px;
+  }
 
+  .end-div {
+    display: flex;
+    width: 327px;
+    height: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+    justify-content: center;
+  }
 
-
-
-
-
-
-
-
-
-
+  .end {
+    width: 127px;
+    height: 5px;
+    background-color: rgba(13, 21, 30, 1);
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
 }

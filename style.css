@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
   * {
     padding: 0;
     margin: 0;
@@ -441,7 +441,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   * {
     padding: 0;
     margin: 0;
@@ -507,18 +507,20 @@
   }
 
   .banner-desktop .main {
+    width: 800px;
     display: flex;
     font-size: 42px;
     color: rgba(245, 88, 0, 1);
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 150px;
   }
 
   .banner-desktop .main2 {
+    width: 400px;
     display: flex;
     position: absolute;
-    top: 62%;
+    top: 65%;
     left: 150px;
     color: rgba(255, 255, 255, 1);
     font-size: 32px;
@@ -597,6 +599,7 @@
 
   .desktop-img {
     margin-left: 170px;
+    display: flex;
   }
 
   .block-div img {
@@ -681,14 +684,15 @@
   .card-desktop .card-desktop-item1 .block2 h2 {
     color: #fff;
     font-size: 30px;
-    margin-left: 20px;
-    margin-top: 160px;
+    margin-left: 7px;
+    margin-top: 80px;
   }
 
   .card-desktop .card-desktop-item1 .block2 p {
     color: #fff;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 7px;
+    margin-top: 0px;
+    width: 350px;
   }
 
   .card-desktop .card-desktop-item1 .block2 .card-item {
@@ -697,7 +701,7 @@
     margin-left: 0;
     margin-right: 24px;
     display: flex;
-    margin-top: 25px;
+    margin-top: 0px;
   }
 
   .card-desktop .card-desktop-item1 .block2 .card-item div {
@@ -801,14 +805,15 @@
   .card-desktop .card-desktop-item2 .block2 h2 {
     color: #fff;
     font-size: 30px;
-    margin-left: 20px;
-    margin-top: 160px;
+    margin-left: 7px;
+    margin-top: 80px;
   }
 
   .card-desktop .card-desktop-item2 .block2 p {
     color: #fff;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 7px;
+    width: 350px;
+    margin-top: 0px;
   }
 
   .card-desktop .card-desktop-item2 .block2 .card-item {
@@ -817,7 +822,7 @@
     margin-left: 0;
     margin-right: 24px;
     display: flex;
-    margin-top: 25px;
+    margin-top: 0px;
   }
 
   .card-desktop .card-desktop-item2 .block2 .card-item div {
@@ -869,11 +874,12 @@
   }
 
   .banner-2 .main-1 {
+    width: 400px;
     font-size: 62px;
     color: #ff6b00;
     position: relative;
-    top: 20%;
-    left: 10%;
+    top: 8%;
+    left: 8%;
   }
 
   .banner-2 .discription-2 {
@@ -911,14 +917,17 @@
     margin-right: 10%;
     display: flex;
     color: #fff;
+    flex-direction: row;
     justify-content: space-around;
     padding-top: 100px;
   }
-
   .banner-3 .language {
-    font-size: 28px;
+    font-size: 30px;
   }
-
+  .banner-3 .language img{
+    width: 30px;
+    height: auto;
+  }
   .banner-3 .language-content {
     display: flex;
     font-size: 16px;
@@ -983,33 +992,36 @@
     font-size: 15px;
   }
 
-  hr {
+  .title-desktop hr {
     margin-top: 100px;
     width: 375px;
-    height: 1px;
+    height: 0px;
   }
-
+.form .btn{
+  display: none;
+}
   .form .btn-end {
-    border: 1px solid #ff6b00;
+    display: flex;
     background-color: #ff6b00;
-    padding: 12px;
-    font-size: 17px;
     color: white;
-    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ff6b00;
   }
 
-  .social-links-2 {
+  .social-links-3 {
     width: 100%;
     height: 20px;
     display: flex;
     padding: 30px;
     justify-content: center;
-    position: absolute;
-    border-top: 1px solid #3c3a39;
+    position: relative;
+    color: rgba(80, 95, 121, 1);
+    border-top: 1px solid #333;
   }
 
-  .social-links-2 i {
-    color: rgba(80, 95, 121, 1);
+  .social-links-3 i {
+  
     margin-left: 10px;
     font-size: 22px;
   }

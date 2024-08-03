@@ -901,8 +901,7 @@
   }
 }
 
-
-@media (min-width: 820px) and (max-width:1020px){
+@media (min-width: 820px) and (max-width: 1020px) {
   * {
     padding: 0;
     margin: 0;
@@ -1300,7 +1299,7 @@
     color: #fff;
     font-size: 26px;
     margin-left: 5%;
-    margin-top:260px;
+    margin-top: 260px;
   }
 
   .card-desktop .card-desktop-item2 .block3 p {
@@ -1308,7 +1307,7 @@
     margin-left: 5%;
     margin-top: 5%;
     width: 90%;
-    font-size:14px ;
+    font-size: 14px;
   }
 
   .card-desktop .card-desktop-item2 .block3 .card-item {
@@ -1492,33 +1491,6 @@
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 1021px) {
   * {
@@ -1765,7 +1737,7 @@
     color: #fff;
     font-size: 26px;
     margin-left: 5%;
-    margin-top:200px;
+    margin-top: 200px;
   }
 
   .card-desktop .card-desktop-item1 .block2 p {

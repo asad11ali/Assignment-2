@@ -679,7 +679,7 @@
   .block2 h2 {
     color: #fff;
     font-size: 22px;
-    padding-top: 70px;
+    padding-top: 170px;
     padding-left: 5px;
   }
 
@@ -688,10 +688,11 @@
     font-size: 14px;
     padding-left: 5px;
     padding-top: 5px;
+    width: 80%;
   }
 
   .card-item {
-    width: 80%;
+    width: 70%;
     height: auto;
     margin-right: 24px;
     display: flex;
@@ -1492,7 +1493,7 @@
   }
 }
 
-@media (min-width: 1021px) {
+@media (min-width: 1021px) and (max-width:1336px) {
   * {
     padding: 0;
     margin: 0;

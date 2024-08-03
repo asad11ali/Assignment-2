@@ -97,6 +97,7 @@
     text-align: left;
     color: #fff;
   }
+
   .social-links {
     margin-left: 7%;
     width: 200px;
@@ -125,10 +126,12 @@
     width: 100%;
     height: 107px;
   }
+
   .title hr {
     width: 327px;
     margin-top: 4%;
   }
+
   .mobile-img {
     width: 100%;
     height: 237px;
@@ -139,6 +142,7 @@
   .mobile-img img {
     width: 80%;
   }
+
   .block {
     padding-top: 80px;
     width: 100%;
@@ -146,11 +150,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
   }
 
   .block-heading {
-    width:80%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -188,11 +192,13 @@
     margin-bottom: 3%;
     text-align: center;
   }
-.card {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+
+  .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   .block2 {
     margin-top: 5%;
     width: 80%;
@@ -339,12 +345,14 @@
   .language-line {
     padding-top: 80px;
   }
-.last{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+
+  .last {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .paragraph {
     width: 80%;
     height: 216px;
@@ -368,7 +376,7 @@
   }
 
   input {
-    padding-bottom:20px;
+    padding-bottom: 20px;
     width: 100%;
     font-size: 15px;
     border-top-color: transparent;
@@ -379,16 +387,17 @@
   }
 
   textarea {
-    padding-top:15px;
-    padding-left:15px;
+    padding-top: 15px;
+    padding-left: 15px;
     width: 100%;
     height: 114px;
     background: rgba(251, 248, 247, 1);
     margin-top: 20px;
     font-size: 15px;
   }
+
   .social-links-3 {
-  margin-top: 35%;
+    margin-top: 35%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -424,11 +433,7 @@
   }
 }
 
-
-
-
-@media(min-width: 431px) and (max-width:768px){
-
+@media (min-width: 431px) and (max-width: 768px) {
   * {
     padding: 0;
     margin: 0;
@@ -527,6 +532,7 @@
     text-align: left;
     color: #fff;
   }
+
   .social-links {
     margin-left: 7%;
     width: 200px;
@@ -555,10 +561,12 @@
     width: 100%;
     height: 107px;
   }
+
   .title hr {
     width: 327px;
     margin-top: 4%;
   }
+
   .mobile-img {
     width: 100%;
     height: auto;
@@ -569,6 +577,7 @@
   .mobile-img img {
     width: 80%;
   }
+
   .block {
     padding-top: 80px;
     width: 100%;
@@ -576,11 +585,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
   }
 
   .block-heading {
-    width:80%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -598,7 +607,7 @@
     margin-left: 6%;
     height: auto;
     display: flex;
-    justify-content:left;
+    justify-content: left;
     padding-top: 20px;
   }
 
@@ -619,16 +628,18 @@
     margin-bottom: 3%;
     text-align: center;
   }
-.card-tablate {
-  width: 100%;
 
-}
-.card-tablate-1{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.card-tablate-1 .block2 {
+  .card-tablate {
+    width: 100%;
+  }
+
+  .card-tablate-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-tablate-1 .block2 {
     margin-top: 5%;
     width: 40%;
     height: 365px;
@@ -636,32 +647,36 @@
     background-repeat: no-repeat;
     background-size: 100%;
   }
-  .card-tablate-2{
+
+  .card-tablate-2 {
     width: 100%;
     display: flex;
     justify-content: space-around;
   }
+
   .card-tablate-2 .block2 {
-      margin-top: 5%;
-      width: 40%;
-      height: 365px;
-      background-image: url('./images/Img\ Placeholder1.png');
-      background-repeat: no-repeat;
-      background-size: 100%;
-    }
-    .card-tablate-3{
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-    }
-    .card-tablate-3 .block2 {
-        margin-top: 5%;
-        width: 40%;
-        height: 365px;
-        background-image: url('./images/Img\ Placeholder1.png');
-        background-repeat: no-repeat;
-        background-size: 100%;
-      }
+    margin-top: 5%;
+    width: 40%;
+    height: 365px;
+    background-image: url('./images/Img\ Placeholder1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .card-tablate-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-tablate-3 .block2 {
+    margin-top: 5%;
+    width: 40%;
+    height: 365px;
+    background-image: url('./images/Img\ Placeholder1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
 
   .block2 h2 {
     color: #fff;
@@ -732,7 +747,6 @@
   .banner-2 .heading-2 {
     color: #ff6b00;
     font-size: 60px;
-
   }
 
   .banner-2 p {
@@ -794,12 +808,14 @@
   .language-line {
     padding-top: 80px;
   }
-.last{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
+
+  .last {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .paragraph {
     width: 80%;
     height: 216px;
@@ -823,7 +839,7 @@
   }
 
   input {
-    padding-bottom:20px;
+    padding-bottom: 20px;
     width: 100%;
     font-size: 15px;
     border-top-color: transparent;
@@ -834,16 +850,17 @@
   }
 
   textarea {
-    padding-top:15px;
-    padding-left:15px;
+    padding-top: 15px;
+    padding-left: 15px;
     width: 100%;
     height: 114px;
     background: rgba(251, 248, 247, 1);
     margin-top: 20px;
     font-size: 15px;
   }
+
   .social-links-3 {
-  margin-top: 35%;
+    margin-top: 35%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -876,37 +893,12 @@
 
   .btn-end {
     display: none;
-  }  
-.card{
-  display: none;
+  }
+
+  .card {
+    display: none;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 769px) {
   * {
@@ -967,8 +959,9 @@
     width: 32px;
     height: 160px;
   }
-  .banner-desktop .social-links .social{
-    margin-top:10px;
+
+  .banner-desktop .social-links .social {
+    margin-top: 10px;
   }
 
   .banner-desktop .main {
@@ -976,7 +969,7 @@
     color: rgba(245, 88, 0, 1);
     position: relative;
     top: 0%;
-    left:8%;
+    left: 8%;
     width: 40%;
     height: auto;
   }
@@ -986,7 +979,7 @@
     top: 0%;
     left: 8%;
     width: 40%;
-    transform: translate(-50,-50);
+    transform: translate(-50, -50);
     color: rgba(255, 255, 255, 1);
     font-size: 32px;
   }
@@ -1022,7 +1015,6 @@
     width: 50%;
     margin-top: 140px;
     font-size: 20px;
-
   }
 
   .title-desktop .title-arrange-2 {
@@ -1030,42 +1022,48 @@
     height: 100px;
     margin-top: 65px;
   }
-  .title-desktop .title-arrange-2 hr{
-    width: 100%;
 
+  .title-desktop .title-arrange-2 hr {
+    width: 100%;
+    margin-top: 100px;
   }
+
   .block-div {
     margin-top: 10%;
     display: flex;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    justify-content: space-between ;
-
+    justify-content: space-between;
   }
-.desktop-img {
-  width: 60%;
-}
-.block-div img{
-  width: 100%;
-  height: 400px;
-}
-.arrange{
-  width: 40%;
-  margin-left: 2%;
-}
-.block-heading p {
-  width: 348px;
-}
-.block-div p {
-  width: 100%;
-  margin-top: 20px;
-  font-size: 18px;
-}
 
-.block-heading h2 {
-  font-size: 30px;
-}
+  .desktop-img {
+    width: 60%;
+  }
+
+  .block-div img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .arrange {
+    width: 40%;
+    margin-left: 2%;
+  }
+
+  .block-heading p {
+    width: 348px;
+  }
+
+  .block-div p {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .block-heading h2 {
+    font-size: 30px;
+  }
 
   .item {
     width: 100%;
@@ -1076,7 +1074,7 @@
   }
 
   .item div {
-    margin-left:2%;
+    margin-left: 2%;
     border: 2px solid  #8993a4;
     padding: 10px 12px 10px 12px;
     font-size: 18px;
@@ -1132,12 +1130,13 @@
     background-image: url('images/Mask\ Group.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item1 .block1 button{
+
+  .card-desktop .card-desktop-item1 .block1 button {
     width: 100%;
     height: 50px;
     background-color: #ff6b00;
-    border: 2px solid #ff6b00 ;
-    font-size:22px;
+    border: 2px solid #ff6b00;
+    font-size: 22px;
     color: white;
     margin-top: 380px;
   }
@@ -1208,7 +1207,6 @@
     justify-content: space-between;
   }
 
-  
   .card-desktop .card-desktop-item2 .block1 {
     width: 32%;
     background-image: url('images/Mask\ Group11.png');
@@ -1226,7 +1224,7 @@
     background-image: url('images/Mask\ Group.png');
     background-repeat: no-repeat;
   }
-  
+
   .card-desktop .card-desktop-item2 .block1 h2 {
     color: #fff;
     font-size: 30px;
@@ -1255,7 +1253,6 @@
     color: #fff;
     background: rgba(255, 255, 255, 0.24);
   }
-
 
   .card-desktop .card-desktop-item2 .block2 h2 {
     color: #fff;
@@ -1316,7 +1313,6 @@
     background: rgba(255, 255, 255, 0.24);
   }
 
-
   .banner-2 {
     margin-top: 10%;
     background-image: url('./images/Frame1.png');
@@ -1342,7 +1338,7 @@
     font-size: 18px;
     position: relative;
     top: 22%;
-    left:8%;
+    left: 8%;
     width: 40%;
   }
 
@@ -1450,12 +1446,6 @@
     font-size: 15px;
   }
 
-  .title-desktop hr {
-    margin-top: 100px;
-    width: 375px;
-    height: 0;
-  }
-
   .form .btn {
     display: none;
   }
@@ -1484,9 +1474,8 @@
     margin-left: 10px;
     font-size: 22px;
   }
-  .card-tablate{
+
+  .card-tablate {
     display: none;
   }
-
-
 }

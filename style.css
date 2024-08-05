@@ -1,5 +1,5 @@
 
-@media (max-width: 430px) {
+@media (min-width:200px) and (max-width: 430px) {
   * {
     padding: 0;
     margin: 0;
@@ -54,13 +54,13 @@
   .main {
     padding-top: 35%;
     padding-left: 7%;
-    width: 80%;
+    width: 60%;
     height: 124px;
   }
 
   .main2 {
     padding-left: 7%;
-    width: 80%;
+    width: 60%;
     height: 27px;
     gap: 0;
   }
@@ -75,7 +75,7 @@
 
   .banner .heading {
     color: #ff6b00;
-    font-size: 56px;
+    font-size: 42px;
     font-weight: 400;
     line-height: 64px;
     letter-spacing: 0.3700000047683716px;
@@ -83,7 +83,7 @@
   }
 
   .banner .sub-heading {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 32px;
     text-align: left;
@@ -91,7 +91,7 @@
   }
 
   .banner p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;

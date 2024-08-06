@@ -1,5 +1,5 @@
 
-@media (min-width:200px) and (max-width: 430px) {
+@media (min-width: 200px) and (max-width: 430px) {
   * {
     padding: 0;
     margin: 0;
@@ -58,10 +58,11 @@
     height: 104px;
     animation-name: heading;
     animation-duration: 1s;
-    animation-delay: 0.2s
+    animation-delay: 0.2s;
   }
+
   @keyframes heading {
-    from{
+    from {
       letter-spacing: 0.5px;
     }
   }
@@ -84,7 +85,6 @@
   .banner .heading {
     color: #ff6b00;
     font-size: 38px;
-
     text-align: left;
   }
 
@@ -96,7 +96,6 @@
 
   .banner p {
     font-size: 14px;
-
     line-height: 24px;
     text-align: left;
     color: #fff;
@@ -198,11 +197,13 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  .btn:hover{
+
+  .btn:hover {
     background-color: transparent;
     color: #ff6b00;
     transition: 0.3s;
   }
+
   .card {
     width: 100%;
     display: flex;
@@ -313,7 +314,8 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  .btn-3:hover{
+
+  .btn-3:hover {
     background-color: transparent;
     color: white;
     transition: 0.3s;
@@ -645,7 +647,8 @@
     cursor: pointer;
     border-radius: 30px;
   }
-  .btn:hover{
+
+  .btn:hover {
     background-color: transparent;
     color: #ff6b00;
     transition: 0.3s;
@@ -742,6 +745,7 @@
     margin-top: 10px;
     text-align: center;
   }
+
   .banner-2 {
     margin-top: 30%;
     background-image: url('./images/Frame.png');
@@ -793,11 +797,13 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  .btn-3:hover{
+
+  .btn-3:hover {
     background-color: transparent;
     color: white;
     transition: 0.3s;
   }
+
   .banner-3 {
     background-color: #1c1a19;
     width: 100%;
@@ -1125,7 +1131,8 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  .btn:hover{
+
+  .btn:hover {
     background-color: transparent;
     color: #ff6b00;
     transition: 0.3s;
@@ -1156,27 +1163,17 @@
     background-image: url('images/Mask\ Group11.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item1 .block1:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.3s;
-  }
+
   .card-desktop .card-desktop-item1 .block2 {
     width: 32%;
     background-image: url('images/Card\ Works2.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item1 .block2:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.3s;
-  }
+
   .card-desktop .card-desktop-item1 .block3 {
     width: 32%;
     background-image: url('images/Mask\ Group.png');
     background-repeat: no-repeat;
-  }
-  .card-desktop .card-desktop-item1 .block3:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.3s;
   }
 
   .card-desktop .card-desktop-item1 .block1 button {
@@ -1265,29 +1262,17 @@
     background-image: url('images/Mask\ Group11.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item2 .block1:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.3s;
-  }
 
   .card-desktop .card-desktop-item2 .block2 {
     width: 32%;
     background-image: url('images/Card\ Works2.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item2 .block2:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.3s;
-  }
 
   .card-desktop .card-desktop-item2 .block3 {
     width: 32%;
     background-image: url('images/Mask\ Group.png');
     background-repeat: no-repeat;
-  }
-  .card-desktop .card-desktop-item2 .block3:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.3s;
   }
 
   .card-desktop .card-desktop-item2 .block1 h2 {
@@ -1426,11 +1411,13 @@
     border-radius: 30px;
     cursor: pointer;
   }
-  .btn-3:hover{
+
+  .btn-3:hover {
     background-color: transparent;
     color: white;
     transition: 0.3s;
   }
+
   .banner-3 {
     background-color: #1c1a19;
     width: 100%;
@@ -1537,11 +1524,13 @@
     cursor: pointer;
     border-radius: 30px;
   }
-  .form .btn-end:hover{
+
+  .form .btn-end:hover {
     background-color: transparent;
     color: #ff6b00;
     transition: 0.3s;
   }
+
   .social-links-3 {
     width: 100%;
     height: 20px;
@@ -1640,13 +1629,13 @@
     animation-iteration-count: 1;
     animation-delay: 0.2s;
   }
-@keyframes heading {
-  from{
-    letter-spacing: 10px;
+
+  @keyframes heading {
+    from {
+      letter-spacing: 10px;
+    }
   }
-  to{
-  }
-}
+
   .banner-desktop .main2 {
     position: relative;
     top: 0%;
@@ -1768,10 +1757,12 @@
     transition: 0.5s;
     border-radius: 30px;
   }
-  .btn:hover{
+
+  .btn:hover {
     background-color: transparent;
     color: #ff6b00;
   }
+
   .card {
     display: none;
   }
@@ -1798,29 +1789,16 @@
     background-repeat: no-repeat;
   }
 
-  .card-desktop .card-desktop-item1 .block1:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.2s;
-  }
-
   .card-desktop .card-desktop-item1 .block2 {
     width: 32%;
     background-image: url('images/Card\ Works2.png');
     background-repeat: no-repeat;
-  }
-  .card-desktop .card-desktop-item1 .block2:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.2s;
   }
 
   .card-desktop .card-desktop-item1 .block3 {
     width: 32%;
     background-image: url('images/Mask\ Group.png');
     background-repeat: no-repeat;
-  }
-  .card-desktop .card-desktop-item1 .block3:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.2s;
   }
 
   .card-desktop .card-desktop-item1 .block1 button {
@@ -1904,29 +1882,17 @@
     background-image: url('images/Mask\ Group11.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item2 .block1:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.2s;
-  }
 
   .card-desktop .card-desktop-item2 .block2 {
     width: 32%;
     background-image: url('images/Card\ Works2.png');
     background-repeat: no-repeat;
   }
-  .card-desktop .card-desktop-item2 .block2:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.2s;
-  }
 
   .card-desktop .card-desktop-item2 .block3 {
     width: 32%;
     background-image: url('images/Mask\ Group.png');
     background-repeat: no-repeat;
-  }
-  .card-desktop .card-desktop-item2 .block3:hover{
-    border: 5px solid #ff6b00;
-    transition: 0.2s;
   }
 
   .card-desktop .card-desktop-item2 .block1 h2 {
@@ -2040,6 +2006,7 @@
     animation-iteration-count: 1;
     animation-delay: 0.2s;
   }
+
   .banner-2 .discription-2 {
     color: #fff;
     font-size: 18px;
@@ -2061,10 +2028,12 @@
     cursor: pointer;
     transition: 0.5s;
   }
-  .btn-3:hover{
+
+  .btn-3:hover {
     background-color: transparent;
     color: white;
   }
+
   .banner-3 {
     background-color: #1c1a19;
     width: 100%;
@@ -2174,10 +2143,12 @@
     cursor: pointer;
     transition: 0.5s;
   }
-  .form .btn-end:hover{
+
+  .form .btn-end:hover {
     background-color: transparent;
     color: #ff6b00;
   }
+
   .social-links-3 {
     width: 100%;
     height: 20px;

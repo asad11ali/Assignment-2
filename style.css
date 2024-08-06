@@ -1,5 +1,5 @@
 
-@media (max-width: 430px) {
+@media (min-width: 200px) and (max-width: 430px) {
   * {
     padding: 0;
     margin: 0;
@@ -52,15 +52,24 @@
   }
 
   .main {
-    padding-top: 35%;
+    padding-top: 40%;
     padding-left: 7%;
-    width: 80%;
-    height: 124px;
+    width: 60%;
+    height: 104px;
+    animation-name: heading;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+  }
+
+  @keyframes heading {
+    from {
+      letter-spacing: 0.5px;
+    }
   }
 
   .main2 {
     padding-left: 7%;
-    width: 80%;
+    width: 60%;
     height: 27px;
     gap: 0;
   }
@@ -75,24 +84,18 @@
 
   .banner .heading {
     color: #ff6b00;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: 0.3700000047683716px;
+    font-size: 38px;
     text-align: left;
   }
 
   .banner .sub-heading {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
+    font-size: 16px;
     text-align: left;
     color: #fff5e1;
   }
 
   .banner p {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
     line-height: 24px;
     text-align: left;
     color: #fff;
@@ -182,7 +185,7 @@
   }
 
   .btn {
-    border: 1px solid #ff6b00;
+    border: 3px solid #ff6b00;
     background-color: #ff6b00;
     padding: 12px;
     font-size: 17px;
@@ -191,6 +194,14 @@
     margin-left: 7%;
     margin-bottom: 3%;
     text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+    color: #ff6b00;
+    transition: 0.3s;
   }
 
   .card {
@@ -300,6 +311,14 @@
     color: white;
     margin-top: 30px;
     text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .btn-3:hover {
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
   }
 
   .banner-3 {
@@ -616,7 +635,7 @@
   }
 
   .btn {
-    border: 1px solid #ff6b00;
+    border: 3px solid #ff6b00;
     background-color: #ff6b00;
     padding: 12px;
     font-size: 17px;
@@ -625,6 +644,14 @@
     margin-left: 9%;
     margin-bottom: 3%;
     text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+    color: #ff6b00;
+    transition: 0.3s;
   }
 
   .card-tablate {
@@ -679,7 +706,7 @@
   .block2 h2 {
     color: #fff;
     font-size: 22px;
-    padding-top: 170px;
+    padding-top: 112px;
     padding-left: 5px;
   }
 
@@ -760,13 +787,21 @@
   }
 
   .btn-3 {
-    border: 2px solid #ff6b00;
+    border: 3px solid #ff6b00;
     background-color: #ff6b00;
     padding: 12px;
     font-size: 17px;
     color: white;
     margin-top: 30px;
     text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .btn-3:hover {
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
   }
 
   .banner-3 {
@@ -1083,16 +1118,24 @@
   }
 
   .btn {
-    border: 1px solid #ff6b00;
+    border: 3px solid #ff6b00;
     background-color: #ff6b00;
     padding: 12px;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     width: 120px;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+    color: #ff6b00;
+    transition: 0.3s;
   }
 
   .card {
@@ -1364,7 +1407,15 @@
     color: white;
     margin-top: 30px;
     text-align: center;
-    border: 2px solid #ff6b00;
+    border: 3px solid #ff6b00;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .btn-3:hover {
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
   }
 
   .banner-3 {
@@ -1468,8 +1519,16 @@
     background-color: #ff6b00;
     color: white;
     padding: 12px;
-    font-size: 18px;
-    border: 1px solid #ff6b00;
+    font-size: 16px;
+    border: 3px solid #ff6b00;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+
+  .form .btn-end:hover {
+    background-color: transparent;
+    color: #ff6b00;
+    transition: 0.3s;
   }
 
   .social-links-3 {
@@ -1565,6 +1624,16 @@
     left: 8%;
     width: 40%;
     height: auto;
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+  }
+
+  @keyframes heading {
+    from {
+      letter-spacing: 10px;
+    }
   }
 
   .banner-desktop .main2 {
@@ -1674,16 +1743,24 @@
   }
 
   .btn {
-    border: 1px solid #ff6b00;
+    border: 3px solid #ff6b00;
     background-color: #ff6b00;
     padding: 12px;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     width: 120px;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 30px;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+    color: #ff6b00;
   }
 
   .card {
@@ -1919,11 +1996,15 @@
 
   .banner-2 .main-1 {
     width: 40%;
-    font-size: 80px;
+    font-size: 79px;
     color: #ff6b00;
     position: relative;
     top: 20%;
     left: 8%;
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
   }
 
   .banner-2 .discription-2 {
@@ -1943,6 +2024,14 @@
     margin-top: 30px;
     text-align: center;
     border: 2px solid #ff6b00;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .btn-3:hover {
+    background-color: transparent;
+    color: white;
   }
 
   .banner-3 {
@@ -2049,7 +2138,15 @@
     color: white;
     padding: 12px;
     font-size: 18px;
-    border: 1px solid #ff6b00;
+    border: 3px solid #ff6b00;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .form .btn-end:hover {
+    background-color: transparent;
+    color: #ff6b00;
   }
 
   .social-links-3 {

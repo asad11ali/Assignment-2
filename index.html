@@ -21,9 +21,9 @@
         <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         <div class="desktop" id="menu">
             <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
-            <a href="#">Portoflio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#portoflio" onclick="hideMenu()">Portoflio</a>
+            <a href="#aboutme" onclick="hideMenu()">About</a>
+            <a href="#contact" onclick="hideMenu()">Contact</a>
             <i class="fa-regular fa-envelope"></i>
         </div>
         
@@ -115,7 +115,7 @@
             <button class="btn">See project</button>
         </div>
     </div>
-    <div class="card">
+    <div class="card" id="portoflio">
         <div class="block2">
             <h2>Profesional Art <br>
                 Printing Data</h2>
@@ -369,7 +369,7 @@
     </div>
     <div class="banner-2">
         <div class="main-1">
-            <h3 class="heading-2">
+            <h3 class="heading-2"  id="aboutme">
                 About me
             </h3>
         </div>
@@ -409,7 +409,7 @@
             </div>
         </div>
     </div>
-    <div class="last">
+    <div class="last" id="contact">
         <div class="paragraph">
             I'm always <br>
             interested in hearing about new projects, so if you'd like to chat please get in touch.

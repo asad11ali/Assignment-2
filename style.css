@@ -28,12 +28,38 @@
     padding-right: 8%;
     color: white;
     font-size: 22px;
+    cursor: pointer;
   }
 
   .desktop {
-    display: none;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color:#3c3a39 ;
+    width: 200px;
+    height: 100vh;
+    z-index: 2;
+    align-items: center;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    transition: 0.5s;
   }
-
+  .desktop a {
+    text-decoration: none;
+    color: white;
+  }
+.desktop .fa-circle-xmark {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
+.desktop .fa-envelope {
+  display: none;
+}
   .banner-desktop {
     display: none;
   }
@@ -479,11 +505,39 @@
     padding-right: 8%;
     color: white;
     font-size: 22px;
+    cursor: pointer;
   }
 
   .desktop {
-    display: none;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color:#3c3a39 ;
+    width: 200px;
+    height: 100vh;
+    z-index: 2;
+    align-items: center;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    transition: 0.5s;
   }
+  .desktop a {
+    text-decoration: none;
+    color: white;
+  }
+.desktop .fa-circle-xmark {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.desktop .fa-envelope {
+  display: none;
+}
 
   .banner-desktop {
     display: none;
@@ -962,7 +1016,9 @@
   .header .fa-bars {
     display: none;
   }
-
+  .desktop .fa-circle-xmark{
+    display: none;
+  }
   .desktop {
     margin-right: 13%;
     width: 255px;
@@ -971,6 +1027,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  .desktop .fa-circle-xmark{
+    display: none;
+  }
+  .desktop a {
+    text-decoration: none;
+    color: white;
+    
   }
 
   .banner {
@@ -1586,6 +1650,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  .desktop .fa-circle-xmark{
+    display: none;
+  }
+  .desktop a {
+    text-decoration: none;
+    color: white;
+    
   }
 
   .banner {

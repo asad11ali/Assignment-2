@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +8,27 @@
 
     <link rel="stylesheet" href="style.css">
     <!--fontawesome link for icon-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="header">
         <div class="logo">
-                My Logo
-         </div>
-        <i class="fa-solid fa-bars"></i>
-        <div class="desktop">
-          <p>Portoflio</p>
-            <p>About</p>
-            <p>About</p>
+            My Logo
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        <div class="desktop" id="menu">
+            <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+            <a href="#portoflio" onclick="hideMenu()">Portoflio</a>
+            <a href="#aboutme" onclick="hideMenu()">About</a>
+            <a href="#contact" onclick="hideMenu()">Contact</a>
             <i class="fa-regular fa-envelope"></i>
         </div>
+        
     </div>
-        <div class="banner">
-            <div class="main">
-                <h1 class="heading">
-                    Hey There.<br>I'm Asad.
-                </h1>
-            </div>
-            <div class="main2">
-                <h4 class="sub-heading">
-                    I'm a Software Developer
-                </h4>
-            </div>
-            <div class="discription">
-                <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                        don’t hesitate to contact me.
-                </p>
-            </div>
-            <div class="social-links">
-                <i class="fa-brands fa-github social"></i>
-                <i class="fa-brands fa-linkedin-in social"></i>
-                <i class="fa-brands fa-angellist social"></i>
-                <i class="fa-brands fa-twitter social"></i>
-                <i class="fa-solid fa-m social"></i>
-             </div>
-    </div>
-    <div class="banner-desktop">
-        <div class="social-links">
-            <i class="fa-brands fa-github social"></i>
-            <i class="fa-brands fa-linkedin-in social"></i>
-            <i class="fa-brands fa-angellist social"></i>
-            <i class="fa-brands fa-twitter social"></i>
-            <i class="fa-solid fa-m social"></i>
-         </div>
+    <div class="banner">
         <div class="main">
             <h1 class="heading">
                 Hey There.<br>I'm Asad.
@@ -65,31 +40,70 @@
             </h4>
         </div>
         <div class="discription">
-            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hesitate to contact me.
+            <p>I can help you build a product , feature or website Look through some of my work and experience! If you
+                like what you see and have a project you need coded,
+                don’t hesitate to contact me.
             </p>
         </div>
-</div>
+        <div class="social-links">
+            <i class="fa-brands fa-github social"></i>
+            <i class="fa-brands fa-linkedin-in social"></i>
+            <i class="fa-brands fa-angellist social"></i>
+            <i class="fa-brands fa-twitter social"></i>
+            <i class="fa-solid fa-m social"></i>
+        </div>
+    </div>
+    <div class="banner-desktop">
+        <div class="social-links">
+            <i class="fa-brands fa-github social"></i>
+            <i class="fa-brands fa-linkedin-in social"></i>
+            <i class="fa-brands fa-angellist social"></i>
+            <i class="fa-brands fa-twitter social"></i>
+            <i class="fa-solid fa-m social"></i>
+        </div>
+        <div class="main">
+            <h1 class="heading">
+                Hey There.<br>I'm Asad.
+            </h1>
+        </div>
+        <div class="main2">
+            <h4 class="sub-heading">
+                I'm a Software Developer
+            </h4>
+        </div>
+        <div class="discription">
+            <p>I can help you build a product , feature or website Look through some of my work and experience! If you
+                like what you see and have a project you need coded,
+                don’t hesitate to contact me.
+            </p>
+        </div>
+    </div>
     <div class="title">
         <h1>My Recent Works</h1>
-        <hr> 
+        <hr>
     </div>
     <div class="mobile-img">
         <img src="images/Img Placeholder (3).png" alt="">
     </div>
     <div class="title-desktop">
-      <div class="title-arrange-1">  <h1>My Recent Works</h1></div>
-      <div class="title-arrange-2">    <hr></div>
+        <div class="title-arrange-1">
+            <h1>My Recent Works</h1>
+        </div>
+        <div class="title-arrange-2">
+            <hr>
+        </div>
     </div>
     <div class="block-div">
-       <div class="desktop-img">
+        <div class="desktop-img">
             <img src="images/Img Placeholder (3).png" alt="">
-        </div> 
-       <div class="arrange">
+        </div>
+        <div class="arrange">
             <div class="block-heading">
                 <h2>Multi-Post Stories</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy
+                    text.
                 </p>
             </div>
             <div class="item">
@@ -101,12 +115,13 @@
             <button class="btn">See project</button>
         </div>
     </div>
-    <div class="card">
+    <div class="card" id="portoflio">
         <div class="block2">
-        <h2>Profesional Art <br>
-            Printing Data</h2>
+            <h2>Profesional Art <br>
+                Printing Data</h2>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                industry's standard.
             </p>
             <span class="card-item">
                 <div>HTML</div>
@@ -117,9 +132,10 @@
         </div>
         <div class="block2">
             <h2>Profesional Art <br>
-            Printing Data</h2>
+                Printing Data</h2>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                industry's standard.
             </p>
             <span class="card-item">
                 <div>HTML</div>
@@ -130,9 +146,10 @@
         </div>
         <div class="block2">
             <h2>Profesional Art <br>
-            Printing Data</h2>
+                Printing Data</h2>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                industry's standard.
             </p>
             <span class="card-item">
                 <div>HTML</div>
@@ -143,9 +160,10 @@
         </div>
         <div class="block2">
             <h2>Profesional Art <br>
-            Printing Data</h2>
+                Printing Data</h2>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                industry's standard.
             </p>
             <span class="card-item">
                 <div>HTML</div>
@@ -156,9 +174,10 @@
         </div>
         <div class="block2">
             <h2>Profesional Art <br>
-            Printing Data</h2>
+                Printing Data</h2>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                industry's standard.
             </p>
             <span class="card-item">
                 <div>HTML</div>
@@ -169,9 +188,10 @@
         </div>
         <div class="block2">
             <h2>Profesional Art <br>
-            Printing Data</h2>
+                Printing Data</h2>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                industry's standard.
             </p>
             <span class="card-item">
                 <div>HTML</div>
@@ -184,10 +204,11 @@
     <div class="card-tablate">
         <div class="card-tablate-1">
             <div class="block2">
-            <h2>Profesional Art <br>
-                Printing Data</h2>
+                <h2>Profesional Art <br>
+                    Printing Data</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
@@ -198,9 +219,10 @@
             </div>
             <div class="block2">
                 <h2>Profesional Art <br>
-                Printing Data</h2>
+                    Printing Data</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
@@ -208,143 +230,153 @@
                     <div>Ruby</div>
                 </span>
                 <button class="btn-2">See project</button>
-        </div>
+            </div>
         </div>
         <div class="card-tablate-2">
-        <div class="block2">
-            <h2>Profesional Art <br>
-            Printing Data</h2>
-            <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-            </p>
-            <span class="card-item">
-                <div>HTML</div>
-                <div>Bootstrap</div>
-                <div>Ruby</div>
-            </span>
-            <button class="btn-2">See project</button>
+            <div class="block2">
+                <h2>Profesional Art <br>
+                    Printing Data</h2>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
+                </p>
+                <span class="card-item">
+                    <div>HTML</div>
+                    <div>Bootstrap</div>
+                    <div>Ruby</div>
+                </span>
+                <button class="btn-2">See project</button>
+            </div>
+            <div class="block2">
+                <h2>Profesional Art <br>
+                    Printing Data</h2>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
+                </p>
+                <span class="card-item">
+                    <div>HTML</div>
+                    <div>Bootstrap</div>
+                    <div>Ruby</div>
+                </span>
+                <button class="btn-2">See project</button>
+            </div>
         </div>
-        <div class="block2">
-            <h2>Profesional Art <br>
-            Printing Data</h2>
-            <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-            </p>
-            <span class="card-item">
-                <div>HTML</div>
-                <div>Bootstrap</div>
-                <div>Ruby</div>
-            </span>
-            <button class="btn-2">See project</button>
+        <div class="card-tablate-3">
+            <div class="block2">
+                <h2>Profesional Art <br>
+                    Printing Data</h2>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
+                </p>
+                <span class="card-item">
+                    <div>HTML</div>
+                    <div>Bootstrap</div>
+                    <div>Ruby</div>
+                </span>
+                <button class="btn-2">See project</button>
+            </div>
+            <div class="block2">
+                <h2>Profesional Art <br>
+                    Printing Data</h2>
+                <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
+                </p>
+                <span class="card-item">
+                    <div>HTML</div>
+                    <div>Bootstrap</div>
+                    <div>Ruby</div>
+                </span>
+                <button class="btn-2">See project</button>
+            </div>
         </div>
     </div>
-    <div class="card-tablate-3">
-        <div class="block2">
-            <h2>Profesional Art <br>
-            Printing Data</h2>
-            <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-            </p>
-            <span class="card-item">
-                <div>HTML</div>
-                <div>Bootstrap</div>
-                <div>Ruby</div>
-            </span>
-            <button class="btn-2">See project</button>
-        </div>
-        <div class="block2">
-            <h2>Profesional Art <br>
-            Printing Data</h2>
-            <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
-            </p>
-            <span class="card-item">
-                <div>HTML</div>
-                <div>Bootstrap</div>
-                <div>Ruby</div>
-            </span>
-            <button class="btn-2">See project</button>
-        </div>
     </div>
-    </div>
-</div>
     <div class="card-desktop">
         <div class="card-desktop-item1">
-        <div class="block1">
-           <button>See project</button>
-        </div>
-        <div class="block2">
-            <h2>Data Dashboard <br>
-                Healthcare</h2>
+            <div class="block1">
+                <button>See project</button>
+            </div>
+            <div class="block2">
+                <h2>Data Dashboard <br>
+                    Healthcare</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
                     <div>Bootstrap</div>
                     <div>Ruby</div>
                 </span>
-        </div>
-        <div class="block3">
-            <h2>Website Portfolio</h2>
+            </div>
+            <div class="block3">
+                <h2>Website Portfolio</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
                     <div>Bootstrap</div>
                     <div>Ruby</div>
                 </span>
+            </div>
         </div>
-    </div>
-    <div class="card-desktop-item2">
-        <div class="block1">
-            <h2>Profesional Art <br>
-                 Printing Data More</h2>
+        <div class="card-desktop-item2">
+            <div class="block1">
+                <h2>Profesional Art <br>
+                    Printing Data More</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
                     <div>Bootstrap</div>
                     <div>Ruby</div>
                 </span>
-        </div>
-        <div class="block2">
-            <h2>Data Dashboard <br>
-                Healthcare</h2>
+            </div>
+            <div class="block2">
+                <h2>Data Dashboard <br>
+                    Healthcare</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
                     <div>Bootstrap</div>
                     <div>Ruby</div>
                 </span>
-        </div>
-        <div class="block3">
-            <h2>Website Portfolio</h2>
+            </div>
+            <div class="block3">
+                <h2>Website Portfolio</h2>
                 <p>
-                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.
+                    A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+                    industry's standard.
                 </p>
                 <span class="card-item">
                     <div>HTML</div>
                     <div>Bootstrap</div>
                     <div>Ruby</div>
                 </span>
-        </div>
+            </div>
 
         </div>
     </div>
-     <div class="banner-2">
+    <div class="banner-2">
         <div class="main-1">
-            <h3 class="heading-2">
+            <h3 class="heading-2"  id="aboutme">
                 About me
             </h3>
         </div>
         <div class="discription-2">
             <p>Hello I’m a software developer! I can help you build a product , feature or
-                website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                website Look through some of my work and experience! If you like what you see and have a project you
+                need coded, don’t hesitate to contact me.
             </p>
             <button class="btn-3">Get my resume</button>
         </div>
@@ -352,15 +384,15 @@
     <div class="banner-3">
         <div class="line">
             <div class="one">
-                <div class="language"> <img src="images/Rectangle 55.png"> Language</div> 
+                <div class="language"> <img src="images/Rectangle 55.png"> Language</div>
                 <div class="language-content">JavaScript</div>
                 <div class="language-content">Ruby</div>
                 <div class="language-content">HTML</div>
                 <div class="language-content">CSS</div>
                 <br>
-             </div>
-             <div class="two">
-                <div class="language"> <img src="images/Rectangle 56 (1).png" > Frameworks</div>
+            </div>
+            <div class="two">
+                <div class="language"> <img src="images/Rectangle 56 (1).png"> Frameworks</div>
                 <div class="language-content">React.js</div>
                 <div class="language-content">Ruby on Rails</div>
                 <div class="language-content">RSpec</div>
@@ -374,15 +406,15 @@
                 <div class="language-content">CLI</div>
                 <div class="language-content">API Design</div>
                 <div class="language-content">Web Development</div>
-         </div>
+            </div>
         </div>
     </div>
-    <div class="last">
+    <div class="last" id="contact">
         <div class="paragraph">
             I'm always <br>
             interested in hearing about new projects, so if you'd like to chat please get in touch.
         </div>
-         <div class="form">
+        <div class="form">
             <form action="">
                 <input type="text" placeholder="Full name" maxlength="30">
                 <input type="text" placeholder="Email address">
@@ -398,9 +430,17 @@
         <i class="fa-brands fa-angellist social"></i>
         <i class="fa-brands fa-twitter social"></i>
         <i class="fa-solid fa-m social"></i>
-    
-     </div>
+
+    </div>
+
+
+
+<script src="index.js"></script>
+  
+
+
 
 
 </body>
+
 </html>

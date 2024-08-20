@@ -1,4 +1,3 @@
-
 const menu = document.getElementById('menu');
 
 function showMenu() {
@@ -11,28 +10,27 @@ function hideMenu() {
 showMenu();
 hideMenu();
 
-data = [
+const data = [
+  {
+    buttonTitle: 'See Project',
+  },
+  {
+    title: 'Data Dashboard <br> Healthcare',
+    discription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    item1: 'HTML',
+    item2: 'Bootstrap',
+    item3: 'Ruby',
+  },
+  {
+    title: 'Website Portfolio',
+    discription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    item1: 'HTML',
+    item2: 'Bootstrap',
+    item3: 'Ruby',
+  },
 
-    {
-      buttonTitle : "See Project",
-    },
-    {
-      title : "Data Dashboard <br> Healthcare",
-      discription : "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-      item1 : "HTML",
-      item2 : "Bootstrap",
-      item3 : "Ruby",
-    },
-    {
-      title : "Website Portfolio",
-      discription : "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-      item1 : "HTML",
-      item2 : "Bootstrap",
-      item3 : "Ruby",
-    }
-
-]
-const main = document.querySelector(".card-desktop-item1");
+];
+const main = document.querySelector('.card-desktop-item1');
 
 main.innerHTML = `
       <div class="card-desktop-item1">
@@ -64,32 +62,32 @@ main.innerHTML = `
        </div>
 `;
 
-data2 = [
+const data2 = [
 
   {
-    title : "Profesional Art <br>Printing Data More",
-    discription : "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    item1 : "HTML",
-    item2 : "Bootstrap",
-    item3 : "Ruby",
+    title: 'Profesional Art <br>Printing Data More',
+    discription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    item1: 'HTML',
+    item2: 'Bootstrap',
+    item3: 'Ruby',
   },
   {
-    title : "Data Dashboard <br> Healthcare",
-    discription : "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    item1 : "HTML",
-    item2 : "Bootstrap",
-    item3 : "Ruby",
+    title: 'Data Dashboard <br> Healthcare',
+    discription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    item1: 'HTML',
+    item2: 'Bootstrap',
+    item3: 'Ruby',
   },
   {
-    title : "Website Portfolio",
-    discription : "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    item1 : "HTML",
-    item2 : "Bootstrap",
-    item3 : "Ruby",
-  }
+    title: 'Website Portfolio',
+    discription: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    item1: 'HTML',
+    item2: 'Bootstrap',
+    item3: 'Ruby',
+  },
 
-]
-const main2 = document.querySelector(".card-desktop-item2");
+];
+const main2 = document.querySelector('.card-desktop-item2');
 
 main2.innerHTML = `
     <div class="card-desktop-item1">

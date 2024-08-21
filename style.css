@@ -250,18 +250,19 @@
     margin-right: 10%;
   }
 
+
   .block2 h2 {
     color: #fff;
     font-size: 32px;
     padding: 80px 0 20px 16px;
   }
 
+
   .block2 p {
     padding: 0 60px 20px 16px;
     color: #fff;
     font-size: 16px;
   }
-
   .card-item {
     width: 80%;
     height: auto;
@@ -286,6 +287,7 @@
     color: white;
     margin-top: 13px;
     text-align: center;
+    cursor: pointer;
   }
 
   .banner-2 {
@@ -494,7 +496,7 @@
     font-size: 24px;
     position: absolute;
     left: 92%;
-    top: 1%;
+    top: 0%;
     cursor: pointer;
   }
 
@@ -504,9 +506,8 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 500px;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 520px;
+    margin-left: 5%;
     justify-content: space-between;
     background-color: #fff;
     padding: 20px;
@@ -1549,7 +1550,7 @@
     color: #fff;
     font-size: 26px;
     margin-left: 5%;
-    margin-top: 200px;
+    margin-top: 230px;
   }
 
   .card-desktop .card-desktop-item2 .block1 p {
@@ -1824,7 +1825,7 @@
   .popup {
     display: none;
     position: absolute;
-    top: 200%;
+    top: 180%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;

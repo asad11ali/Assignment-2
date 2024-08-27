@@ -248,24 +248,26 @@
     background-size: 100%;
     margin-left: 10%;
     margin-right: 10%;
+    gap: 10px;
   }
 
 
   .block2 h2 {
     color: #fff;
     font-size: 32px;
-    padding: 80px 0 20px 16px;
+    padding-top: 90px;
+    padding-left:10px;
   }
 
 
   .block2 p {
-    padding: 0 60px 20px 16px;
     color: #fff;
     font-size: 16px;
+    padding-left:10px;
   }
   .card-item {
     width: 80%;
-    height: auto;
+    height: 35px;
     margin-right: 24px;
     display: flex;
   }
@@ -285,7 +287,6 @@
     padding: 12px;
     font-size: 17px;
     color: white;
-    margin-top: 13px;
     text-align: center;
     cursor: pointer;
   }
@@ -482,11 +483,11 @@
   .popup {
     display: none;
     position: absolute;
-    top: 175%;
+    top: 275%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.6);
   }
@@ -560,7 +561,7 @@
     padding: 8px 10px 8px 10px;
   }
 
-  .block-div-2 .btn {
+  .block-div-2 .btn-2 {
     border: 3px solid #ff6b00;
     background-color: #ff6b00;
     padding: 12px;
@@ -2166,7 +2167,7 @@
 
   .card-desktop .card-desktop-item1 .block1 {
     width: 32%;
-    height: 500px;
+    height: 390px;
     background-image: url('images/Mask\ Group11.png');
     background-repeat: no-repeat;
   }
@@ -2178,7 +2179,6 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   .card-desktop .card-desktop-item1 .block3 {
@@ -2188,7 +2188,6 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   .card-desktop .card-desktop-item1 .block1 button {
@@ -2198,7 +2197,7 @@
     border: 2px solid #ff6b00;
     font-size: 22px;
     color: white;
-    margin-top: 385px;
+    margin-top: 367px;
   }
 
   .card-desktop .card-desktop-item1 .block2 h2 {
@@ -2211,12 +2210,13 @@
   .card-desktop .card-desktop-item1 .block2 p {
     color: #fff;
     margin-left: 5%;
+    text-align: left;
     width: 90%;
   }
 
   .card-desktop .card-desktop-item1 .block2 .card-item {
     width: 80%;
-    height: auto;
+    height: 40px;
     margin-right: 5%;
     margin-bottom: 7%;
     display: flex;
@@ -2244,7 +2244,7 @@
 
   .card-desktop .card-desktop-item1 .block3 .card-item {
     width: 80%;
-    height: auto;
+    height: 40px;
     margin-right: 5%;
     display: flex;
   }
@@ -2270,7 +2270,6 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   .card-desktop .card-desktop-item2 .block2 {
@@ -2280,7 +2279,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
   }
 
   .card-desktop .card-desktop-item2 .block3 {
@@ -2290,7 +2289,6 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   .card-desktop .card-desktop-item2 .block1 h2 {
@@ -2308,7 +2306,7 @@
 
   .card-desktop .card-desktop-item2 .block1 .card-item {
     width: 80%;
-    height: auto;
+    height: 40px;
     margin-right: 5%;
     display: flex;
   }
@@ -2334,7 +2332,7 @@
 
   .card-desktop .card-desktop-item2 .block2 .card-item {
     width: 80%;
-    height: auto;
+    height: 40px;
     margin-right: 5%;
     margin-bottom: 7%;
     display: flex;
@@ -2361,7 +2359,7 @@
 
   .card-desktop .card-desktop-item2 .block3 .card-item {
     width: 80%;
-    height: auto;
+    height: 40px;
     margin-right: 5%;
     display: flex;
   }

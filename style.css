@@ -883,7 +883,7 @@ textarea {
   line-height: 24px;
 }
 
-#name,
+#fullName,
 #email {
   box-sizing: border-box;
   width: 100%;
@@ -910,6 +910,11 @@ textarea {
   flex-direction: column;
   gap: 16px;
   align-items: center;
+}
+
+.submit-container a {
+  text-decoration: none;
+  color: white;
 }
 
 #submit {

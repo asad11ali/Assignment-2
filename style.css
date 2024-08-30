@@ -1018,7 +1018,6 @@ textarea {
     background-color: #1c1a19;
     padding: 60px 0 80px 40px;
     margin-top: 0;
-
   }
 
   .intro h2 {
@@ -1130,9 +1129,11 @@ textarea {
     padding-bottom: 60px;
     margin-right: 60px;
   }
+
   .skill img {
     width: 20px;
   }
+
   #contact-me {
     margin: 0 10% 0 10%;
   }
@@ -1347,11 +1348,6 @@ textarea {
     height: 100%;
   }
 
-  .skill img {
-    width: 100%;
-    border-radius: 15px;
-  }
-
   article.featured img {
     gap: 18px;
     width: 58%;
@@ -1482,7 +1478,8 @@ textarea {
   .skill {
     width: 17%;
   }
-  .skill img {
+
+  .skills-grid .skill img {
     width: 20px;
   }
 

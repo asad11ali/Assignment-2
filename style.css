@@ -92,11 +92,15 @@ header {
 
 .logo {
   height: 36px;
+  color: white;
+  font-size: 26px;
 }
 
-.hamburger {
+.menu i {
   width: 24px;
   height: auto;
+  color: white;
+  font-size: 26px;
 }
 
 .hamburger.active {
@@ -1008,7 +1012,7 @@ textarea {
 
   .desktop-nav-links {
     text-decoration: inherit;
-    color: inherit;
+    color: white;
   }
 
   .intro {
@@ -1221,7 +1225,7 @@ textarea {
 
   .desktop-nav-links {
     text-decoration: inherit;
-    color: inherit;
+    color: white;
   }
 
   /* intro */
@@ -1650,7 +1654,7 @@ textarea {
 
   .desktop-nav-links {
     text-decoration: inherit;
-    color: inherit;
+    color: white;
   }
 
   /* ***************************/

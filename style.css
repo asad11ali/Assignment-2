@@ -186,8 +186,8 @@ header {
   }
 }
 
-
 /* intro title */
+
 h1 {
   color: #ff6b00;
   font-family: "Crete Round", "Gill Sans", sans-serif;
@@ -834,13 +834,10 @@ article.featured {
   width: 20px;
 }
 
-
-
-
-
 /* ************************ */
 
 /* CONTACT ME - SECTION */
+
 #contact-me {
   align-items: center;
   margin: 0 24px;
@@ -1487,8 +1484,8 @@ textarea {
     width: 20px;
   }
 
-
   /* CONTACT ME -SECTION */
+
   #contact-me {
     flex-direction: row;
     gap: 24px;
@@ -1908,10 +1905,6 @@ textarea {
   .skill img {
     width: 20px;
   }
-
-
-
-  /*******************   */
 
   /* CONTACT ME -SECTION */
 

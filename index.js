@@ -464,3 +464,17 @@ const splashScreen = document.getElementById('splash-screen');
 setTimeout(() => {
   splashScreen.classList.add('hide');
 }, 2800);
+
+// Add data to Local storage
+
+function saveData() {
+  const fullName = document.getElementById('fullName').value;
+  const email = document.getElementById('email').value;
+  const mess = document.getElementById('message').value;
+
+  localStorage.setItem('Name', fullName);
+  localStorage.setItem('Email', email);
+  localStorage.setItem('Message', mess);
+}
+
+saveData();
